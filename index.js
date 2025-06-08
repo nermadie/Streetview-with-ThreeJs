@@ -36,7 +36,7 @@ const headWidth = 10;
 const streetView = [
   {
     name: "BKDN_E1",
-    url: "background/E1.jpg",
+    url: "background/E1.hdr.jpg",
     arrows: [
       {
         direction: [-68, 0, 90],
