@@ -350,10 +350,19 @@ function onWindowResize() {
 
 function animate(event) {
   requestAnimationFrame(animate);
-
+  TWEEN.update(event);
   stats.begin();
   render();
   stats.end();
+}
+
+const loadedTextures = {};
+
+function transitionTo(targetName) {
+  new TWEEN.Tween({ opacity: 0 })
+    .to({ opacity: 1 }, 1000) // Thời gian chuyển cảnh 1 giây
+    .easing(TWEEN.Easing.Quadratic.InOut)
+    .start();
 }
 
 function eventHandler(event) {
@@ -379,6 +388,7 @@ function eventHandler(event) {
       } else if (event.type === "click") {
         if (intersects.length > 0) {
           const target = arrow.userData.target;
+          transitionTo(target);
           params.background = target;
         }
       }
