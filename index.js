@@ -58,7 +58,7 @@ const streetView = [
   },
   {
     name: "BKDN_E2",
-    url: "background/E2.jpg",
+    url: "background/E2.hdr.jpg",
     arrows: [
       {
         direction: [62, 0, -100],
@@ -68,7 +68,7 @@ const streetView = [
   },
   {
     name: "BKDN_E3",
-    url: "background/E3.jpg",
+    url: "background/E3.hdr.jpg",
     arrows: [
       {
         direction: [-26, 0, -20],
@@ -82,7 +82,7 @@ const streetView = [
   },
   {
     name: "BKDN_E4",
-    url: "background/E4.jpg",
+    url: "background/E4.hdr.jpg",
     arrows: [
       {
         direction: [-1, 0, -1],
@@ -92,7 +92,7 @@ const streetView = [
   },
   {
     name: "BKDN_E5",
-    url: "background/E5.jpg",
+    url: "background/E5.hdr.jpg",
     arrows: [
       {
         direction: [-1, 0, 1],
@@ -102,7 +102,7 @@ const streetView = [
   },
   {
     name: "BKDN_E6",
-    url: "background/E6.jpg",
+    url: "background/E6.hdr.jpg",
     arrows: [
       {
         direction: [1, 0, 1],
@@ -117,7 +117,7 @@ const streetView = [
   },
   {
     name: "BKDN_F1",
-    url: "background/F1.jpg",
+    url: "background/F1.hdr.jpg",
     arrows: [
       {
         direction: [-3, 0, -5],
@@ -127,7 +127,7 @@ const streetView = [
   },
   {
     name: "BKDN_F2",
-    url: "background/F2.jpg",
+    url: "background/F2.hdr.jpg",
     arrows: [
       {
         direction: [3, 0, 5],
@@ -141,7 +141,7 @@ const streetView = [
   },
   {
     name: "BKDN_F3",
-    url: "background/F3.jpg",
+    url: "background/F3.hdr.jpg",
     arrows: [
       {
         direction: [3, 0, 5],
@@ -155,7 +155,7 @@ const streetView = [
   },
   {
     name: "BKDN_F4",
-    url: "background/F4.jpg",
+    url: "background/F4.hdr.jpg",
     arrows: [
       {
         direction: [20, 0, 1],
