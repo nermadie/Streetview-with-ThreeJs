@@ -180,11 +180,49 @@
         },
         {
           name: "BKDN_F1",
-          url: "textures/equirectangular/F1.jpg",
+          url: "background/F1.jpg",
           arrows: [
             {
-              direction: [-1, 0, 1],
+              direction: [-3, 0, -5],
               target: "BKDN_F2",
+            },
+          ],
+        },
+        {
+          name: "BKDN_F2",
+          url: "background/F2.jpg",
+          arrows: [
+            {
+              direction: [3, 0, 5],
+              target: "BKDN_F1",
+            },
+            {
+              direction: [-3, 0, -5],
+              target: "BKDN_F3",
+            },
+          ],
+        },
+        {
+          name: "BKDN_F3",
+          url: "background/F3.jpg",
+          arrows: [
+            {
+              direction: [3, 0, 5],
+              target: "BKDN_F2",
+            },
+            {
+              direction: [-2, 0, -10],
+              target: "BKDN_F4",
+            },
+          ],
+        },
+        {
+          name: "BKDN_F4",
+          url: "background/F4.jpg",
+          arrows: [
+            {
+              direction: [20, 0, 1],
+              target: "BKDN_F3",
             },
           ],
         },
@@ -321,6 +359,10 @@
           "BKDN_E3",
           "BKDN_E4",
           "BKDN_E5",
+          "BKDN_F1",
+          "BKDN_F2",
+          "BKDN_F3",
+          "BKDN_F4",
           "Default",
         ]);
         gui.add(params, "roughness", 0, 1, 0.01);
