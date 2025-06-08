@@ -2,6 +2,12 @@
 
 This project focuses on **implementing 3D models based on WebGL and the Three.js library** on a Local Web Server. The main goal is to **demonstrate how to create and display interactive 3D graphics in a web browser**, specifically applying **realistic lighting effects** and **Street View** functionality.
 
+![alt text](.github/image.png)
+
+You can view the live demo of this project at: [https://nermadie.github.io/Streetview-with-ThreeJs/](https://nermadie.github.io/Streetview-with-ThreeJs/)
+
+  **Note**: The live demo background image is compressed to reduce loading time, so the quality may not be as high as in the local version.
+
 ## Description
 
 This project is an implementation based on the `webgl_lightprobe_cubecamera` example from the official Three.js website. It uses **light probes and cube cameras to collect lighting information from the environment**, helping objects in the 3D scene reflect light more naturally.
@@ -42,15 +48,15 @@ The project has the following directory structure:
   │   └── three.module.js               # Main Three.js library
   └── background/                       # Contains background image data
       ├── spruit_sunrise_4k.hdr.jpg     # Default background (spring sunrise)
-      ├── E1.jpg                        # Background for area E of Da Nang University of Technology (1)
-      ├── E2.jpg                        # Background for area E of Da Nang University of Technology (2)
-      ├── E3.jpg                        # Background for area E of Da Nang University of Technology (3)
-      ├── E4.jpg                        # Background for area E of Da Nang University of Technology (4)
-      ├── E5.jpg                        # Background for area E of Da Nang University of Technology (5)
-      └── E6.jpg                        # Background for area E of Da Nang University of Technology (6)
+      ├── E1.jpg                        # Background for area E of DUT (1)
+      ├── E2.jpg                        # Background for area E of DUT (2)
+      ├── E3.jpg                        # Background for area E of DUT (3)
+      ├── E4.jpg                        # Background for area E of DUT (4)
+      ├── E5.jpg                        # Background for area E of DUT (5)
+      └── E6.jpg                        # Background for area E of DUT (6)
 ```
 
-*(Note: F1.jpg is also referenced in the source code, potentially located in 'textures/equirectangular')*
+*(Note: F1.jpg is also referenced in the source code, and higher resolution backgrounds are in background_\*\* folders)*
 
 ## Installation and Running Instructions
 
